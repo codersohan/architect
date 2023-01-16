@@ -1,0 +1,260 @@
+
+.header{
+    background: rgba(255, 144, 14, 0.1);
+    width: 1920px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+button{
+    width: 180px;
+    height: 64px;
+    background-color: #ff900e;
+}
+
+.quicklist{
+    width: 1440px;
+}
+
+.homeabout{
+    display: flex;
+    
+}
+
+.homeabout ul{
+    list-style: none;
+}
+
+.homeabout a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+.bannerinfo{
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bannerimg{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.featurelistimg{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px;
+    grid-row-gap:15px;
+    padding: 20px;
+}
+
+strong{
+    color: #ff900e;
+
+}
+
+.quicklist{
+    display: flex;
+    justify-content: end;
+}
+
+.features{
+    display: block;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.borderfeature{
+    border-left: 2px solid #ff900e;
+    padding-left: 10px;
+}
+
+
+.featureslove{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.featureimage{
+    z-index: -1;
+}
+
+.featureimage .tenyear{
+    margin-top: -150px;
+    margin-left: -120px;
+    border: 2px solid yellow;
+    background-color: #ffff00;
+    padding: 10px;
+    z-index: 999;
+    position: absolute;
+}
+
+
+.textinfo123{
+    text-align: left;
+    margin-left: 130px;
+}
+
+.factsimage{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 150px;
+    text-align: center;
+
+    
+}
+
+.factsimage img{
+    height: fit-content;
+}
+
+.ribon{
+    border: 1px solid orangered;
+    padding: 10px;
+}
+.projects{
+    border: 1px solid orangered;
+    padding: 10px;
+}
+.customers{
+    border: 1px solid orangered;
+    padding: 10px;
+}
+.email{
+    border: 1px solid orangered;
+    padding: 10px;
+}
+
+.ribon h2:hover, .projects h2:hover, .customers h2:hover, .email h2:hover{
+    
+   border: 1px dotted blue;
+    
+}
+
+.sponsorstext{
+    text-align: center;
+}
+
+.sponsorscompany{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+    
+} 
+
+footer{
+    text-align: center;
+    background-color: #fff4e7;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+    
+}
+
+
+@media screen and (max-width: 576px){
+
+     nav h2{
+        margin-left: 5px;
+        font-size: 10px;
+     }      
+
+     .homeabout{
+        
+        font-size: 10px;
+        margin-right: 5px;
+        display: flex;
+        justify-content: flex-end;
+    
+     }
+
+     .quicklist{
+        width: 500px;
+        display: block;
+     }
+
+    .featurelistimg{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featurelistimg img{
+        width: 35%;
+        
+    } 
+
+    .bannerimg img{
+        width: 90%;
+    }
+
+    .features{
+        
+         margin-top: 20px;
+    }
+
+    .featureslove{
+        display: block;
+    }
+
+    .featureimage img{
+        width: 100%;
+    }
+
+
+    .somefacts{
+        text-align: center;
+        
+    }
+
+    .sponsorscompany{
+        display: flex;
+        flex-direction: column;
+        
+        
+    } 
+
+     
+     .oursponsor{
+       margin-top: 10px;
+     }        
+
+
+    
+    .sponsorscompany img{
+        width: 45%;
+        text-align: center;
+        
+    }
+  
+     
+    footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    background-color: #fff4e7;
+    width: 300px;
+         
+
+     }
+
+
+
+
+
+
+ }
+
+
